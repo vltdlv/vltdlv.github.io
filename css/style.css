@@ -15,7 +15,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
+  width: 980px;
 }
 
 #content-biography {
@@ -39,8 +39,8 @@ section {
 }
 
 hr {
-  border: none; /* Rimuove il bordo predefinito */
-  height: 1px; /* Altezza della riga */
-  background-color: black; /* Colore della riga */
-  margin: 20px 0; /* Margine sopra e sotto la riga */
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin: 20px 0;
 }

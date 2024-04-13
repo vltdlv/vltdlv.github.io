@@ -34,7 +34,10 @@ a {
 }
 
 main {
+  display: flex;
   width: 980px;
+  flex-direction: column;
+  align-items: center;
 }
 
 section {

@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -24,6 +24,10 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+}
+
+.content-biography {
+  display: flex;
 }
 
 .biography {

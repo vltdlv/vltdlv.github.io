@@ -4,6 +4,7 @@ body {
   font-weight: 500;
   font-style: normal;
   background-image: url("images/background-gradient.svg");
+  margin: 0px;
 }
 
 nav {

@@ -18,6 +18,11 @@ nav {
   width: 980px;
 }
 
+footer {
+  text-align: center;
+  font-size: small;
+}
+
 #content-biography {
   display: flex;
   flex-direction: row;

@@ -28,9 +28,16 @@ nav {
 
 .content-biography {
   display: flex;
+  flex-direction: row;
 }
 
-.biography {
+@media (max-width: 768px) {
+  .content-biography {
+    flex-direction: column; /* Cambia la disposizione in colonna */
+  }
+}
+
+section#biography {
   text-align: left;
 }
 

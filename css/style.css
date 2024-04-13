@@ -40,6 +40,16 @@ main {
   margin: 0 auto;
 }
 
+.cluster {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-for-two {
+  display: flex;
+  flex-direction: row;
+}
+
 .boxes {
   margin: 0 20px;
 }

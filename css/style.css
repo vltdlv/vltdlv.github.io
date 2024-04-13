@@ -11,6 +11,8 @@ body {
   background-image: url("images/background-gradient.svg");
   background-size: cover;
   background-position: center;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 header {

@@ -8,6 +8,9 @@ body {
   height: auto;
   position: relative;
   width: 100%;
+  background-image: url("images/background-gradient.svg");
+  background-size: cover;
+  background-position: center;
 }
 
 header {

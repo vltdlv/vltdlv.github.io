@@ -50,6 +50,12 @@ main {
   flex-direction: row;
 }
 
+@media (max-width: 480px) {
+  .box-for-two {
+    flex-direction: column;
+  }
+}
+
 .boxes {
   margin: 0 20px;
 }

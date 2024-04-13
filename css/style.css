@@ -30,17 +30,29 @@ nav {
 
 .content-biography {
   display: flex;
-  flex-direction: row;
-}
-
-@media (max-width: 480px) {
-  .content-biography {
-    flex-direction: column;
-  }
+  flex-direction: row; /* Impostazione predefinita */
 }
 
 section#biography {
   text-align: left;
+}
+
+/* Allineamento del testo a sinistra */
+#biography h2,
+#biography p {
+  text-align: left;
+}
+
+/* Stile dell'immagine */
+#biography figure {
+  margin-right: 20px; /* Aggiungi margine a destra per separare l'immagine dal testo */
+}
+
+/* Media query per dispositivi con larghezza massima di 480px (ad esempio dispositivi mobili) */
+@media (max-width: 480px) {
+  .content-biography {
+    flex-direction: column; /* Cambia la disposizione in colonna */
+  }
 }
 
 .logo {

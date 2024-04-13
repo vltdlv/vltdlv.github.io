@@ -41,17 +41,13 @@ main {
   padding: 20px;
 }
 
-.content {
+article {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+  flex-direction: column;
 }
 
-.text,
-.image {
-  flex: 1;
-  padding: 0 10px;
+section {
+  margin-bottom: 20px;
 }
 
 .container {
@@ -82,7 +78,7 @@ hr {
 }
 
 .square-images img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+  width: 100%; /* Utilizza tutta la larghezza disponibile */
+  max-width: 150px; /* Larghezza massima */
+  height: auto; /* Altezza proporzionale */
 }

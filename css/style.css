@@ -9,8 +9,6 @@ body {
   position: relative;
   width: 100%;
   background-image: url("images/background-gradient.svg");
-  background-size: cover;
-  background-position: center;
 }
 
 header {
@@ -72,12 +70,7 @@ a {
 }
 
 main {
-  padding: 20px;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
+  padding: 40px;
 }
 
 section {

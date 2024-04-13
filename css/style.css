@@ -37,3 +37,10 @@ section {
   text-align: left;
   margin-bottom: 20px;
 }
+
+hr {
+  border: none; /* Rimuove il bordo predefinito */
+  height: 1px; /* Altezza della riga */
+  background-color: black; /* Colore della riga */
+  margin: 20px 0; /* Margine sopra e sotto la riga */
+}

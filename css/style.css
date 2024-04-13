@@ -33,9 +33,9 @@ nav {
   flex-direction: row;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .content-biography {
-    flex-direction: column; /* Cambia la disposizione in colonna */
+    flex-direction: column;
   }
 }
 

@@ -273,3 +273,7 @@ h2 {
     max-width: none; /* Rimuove il limite massimo impostato precedentemente */
   }
 }
+
+.architecture {
+  padding-top: 20px;
+}

@@ -25,6 +25,10 @@ nav {
   }
 }
 
+p {
+  font-size: 18pt;
+}
+
 footer {
   text-align: center;
   font-size: small;
@@ -64,6 +68,10 @@ main {
   .box-for-two {
     flex-direction: column;
   }
+}
+
+.box-for-two {
+  margin-top: 20px;
 }
 
 .boxes {

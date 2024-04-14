@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   margin: 0px;
 }
@@ -25,8 +25,90 @@ nav {
   }
 }
 
-p {
+.main-story {
   font-size: 18pt;
+}
+
+.back-to {
+  margin: 40px 0;
+  width: 100%;
+}
+
+.back-to p {
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.back-to p:hover {
+  animation: glitter 0.6s;
+}
+
+@keyframes glitter {
+  0% {
+    opacity: 1; /* Opacità iniziale */
+  }
+  50% {
+    opacity: 0.5; /* Opacità intermedia */
+  }
+  100% {
+    opacity: 1; /* Opacità finale */
+  }
+}
+
+p {
+  font-size: 14pt;
+}
+
+.subtitles {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-page {
+  width: 980px;
+}
+
+@media (max-width: 480px) {
+  .content-page {
+    width: 100%;
+    padding: 0 20px 0 40px;
+  }
+}
+
+.main-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
+
+.content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+.description {
+  width: 720px;
+}
+
+@media (max-width: 480px) {
+  .description {
+    width: 320px;
+  }
 }
 
 footer {
@@ -115,4 +197,79 @@ hr {
 
 h2 {
   font-size: 16px;
+}
+
+.title h1 {
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+.title h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.subtitles p {
+  line-height: 30px;
+}
+
+.protowrap {
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+}
+
+@media (max-width: 480px) {
+  .protowrap {
+    width: 100%;
+  }
+}
+
+.protobox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+
+@media (max-width: 480px) {
+  .protobox {
+    flex-direction: column;
+  }
+}
+
+.prototypes {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .prototypes {
+    align-items: center;
+  }
+}
+
+.proto-description {
+  width: 220px;
+  font-size: 11pt;
+  padding: 0 10px;
+}
+
+/* Media query per schermi di larghezza massima di 720px */
+@media screen and (max-width: 720px) {
+  /* Modifica le dimensioni delle immagini di 720px */
+  img.img-720 {
+    width: 100%; /* Imposta la larghezza al 100% del contenitore */
+    max-width: none; /* Rimuove il limite massimo impostato precedentemente */
+  }
+}
+
+/* Media query per schermi di larghezza massima di 980px */
+@media screen and (max-width: 980px) {
+  /* Modifica le dimensioni delle immagini di 980px */
+  img.img-980 {
+    width: 100%; /* Imposta la larghezza al 100% del contenitore */
+    max-width: none; /* Rimuove il limite massimo impostato precedentemente */
+  }
 }

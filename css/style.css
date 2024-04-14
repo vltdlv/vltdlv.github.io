@@ -31,7 +31,10 @@ p {
 
 footer {
   text-align: center;
-  font-size: small;
+}
+
+.footer {
+  font-size: 10pt;
 }
 
 #content-biography {
@@ -57,6 +60,13 @@ main {
 .cluster {
   display: flex;
   flex-direction: column;
+  width: 720px;
+}
+
+@media (max-width: 480px) {
+  .cluster {
+    width: 100%;
+  }
 }
 
 .box-for-two {

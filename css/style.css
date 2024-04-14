@@ -3,9 +3,6 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  background-image: url("images/background-gradient.png");
-  background-size: cover;
-  background-position: center;
   margin: 0px;
 }
 
@@ -24,8 +21,7 @@ nav {
 
 @media (max-width: 480px) {
   nav {
-    margin: 20px auto;
-    max-width: 320px;
+    padding: 0 20px;
   }
 }
 
@@ -35,7 +31,7 @@ footer {
 }
 
 #content-biography {
-  margin: 50px auto;
+  margin: 50px;
   display: flex;
   flex-direction: row;
 }
@@ -72,6 +68,11 @@ main {
 
 .boxes {
   margin: 10px 30px;
+  transition: transform 0.3s ease;
+}
+
+.image-link:hover .boxes {
+  transform: scale(1.1);
 }
 
 section {
@@ -79,6 +80,12 @@ section {
   text-align: left;
   margin-bottom: 20px;
   width: 720px;
+}
+
+@media (max-width: 480px) {
+  section {
+    width: 100%;
+  }
 }
 
 hr {

@@ -58,6 +58,7 @@ main {
 
 .boxes {
   margin: 0 20px;
+  border: #000 1px;
 }
 
 section {
@@ -68,7 +69,11 @@ section {
 
 hr {
   border: none;
-  height: 2px;
+  height: 1px;
   background-color: black;
   margin: 20px 0;
+}
+
+h2 {
+  font-size: 16px;
 }

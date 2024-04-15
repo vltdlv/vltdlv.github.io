@@ -35,7 +35,7 @@ nav {
 }
 
 .back-to p {
-  font-size: 20pt;
+  font-size: 18pt;
   font-weight: 600;
 }
 
@@ -55,13 +55,13 @@ nav {
   }
 }
 
-p {
-  font-size: 14pt;
-}
-
 .subtitles {
   display: flex;
   flex-direction: column;
+}
+
+.subtitles p {
+  line-height: 18pt;
 }
 
 .content-page {
@@ -199,19 +199,20 @@ h2 {
   font-size: 16px;
 }
 
+.title {
+  margin-top: 30px;
+}
+
 .title h1 {
+  font-size: 16pt;
   font-weight: 800;
   margin-bottom: 0px;
 }
 
 .title h2 {
-  font-size: 22px;
+  font-size: 14pt;
   font-weight: 600;
   margin-top: 10px;
-}
-
-.subtitles p {
-  line-height: 30px;
 }
 
 .protowrap {
